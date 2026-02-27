@@ -7,7 +7,7 @@ import streamlit as st          # streamlit run app/app.py
 
 st.set_page_config( 'Analysis Dashboard', ':bar_chart:', 'wide' )
 
-df = pd.read_csv( 'D:/Omar/[7] Learning/Python/Datascience/Zara Sales Analysis/data/cleaned data/cleaned_data.csv' )
+df = pd.read_csv( 'data/cleaned data/cleaned_data.csv' )
 
 
 
